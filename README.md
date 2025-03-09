@@ -1,6 +1,6 @@
-Funções Básicas do Google Sheets
+#Funções Básicas do Google Sheets
 
-📈 Funções Matemáticas e Estatísticas
+##📈 Funções Matemáticas e Estatísticas
 
 =SOMA(A1:A10) → Soma os valores no intervalo.
 
@@ -14,7 +14,7 @@ Funções Básicas do Google Sheets
 
 =CONT.VALORES(A1:A10) → Conta todas as células não vazias.
 
-🔠 Funções de Texto
+##🔠 Funções de Texto
 
 =CONCATENAR(A1, B1) → Junta textos de duas células.
 
@@ -26,7 +26,7 @@ Funções Básicas do Google Sheets
 
 =EXT.TEXTO(A1, 2, 3) → Retorna 3 caracteres a partir da posição 2.
 
-🔍 Funções Lógicas
+##🔍 Funções Lógicas
 
 =SE(A1>10, "Maior que 10", "Menor ou igual a 10") → Condição simples.
 
@@ -34,7 +34,7 @@ Funções Básicas do Google Sheets
 
 =SE(OU(A1="Sim", B1=100), "Aprovado", "Reprovado") → Condição com OU.
 
-🔄 Funções de Pesquisa e Referência
+##🔄 Funções de Pesquisa e Referência
 
 =PROCV(1001, A2:C10, 2, FALSO) → Procura "1001" na coluna A e retorna o valor da 2ª coluna.
 
@@ -42,7 +42,7 @@ Funções Básicas do Google Sheets
 
 =CORRESP(50, A2:A10, 0) → Retorna a posição do valor 50 na coluna A.
 
-⏳ Funções de Data e Hora
+##⏳ Funções de Data e Hora
 
 =HOJE() → Retorna a data atual.
 
@@ -50,24 +50,24 @@ Funções Básicas do Google Sheets
 
 =DIATRABALHOTOTAL(A1, B1) → Calcula dias úteis entre duas datas.
 
-📚 Conceitos Adicionais
+##📚 Conceitos Adicionais
 
-Interpolação
+###Interpolação
 
-A interpolação é um método matemático usado para estimar valores dentro de um intervalo de dados conhecidos. No Google Sheets, pode ser realizada usando funções como =TENDÊNCIA() e =PROJ.LIN(), que ajudam a prever valores com base em padrões existentes.
+- A interpolação é um método matemático usado para estimar valores dentro de um intervalo de dados conhecidos. No Google Sheets, pode ser realizada usando funções como =TENDÊNCIA() e =PROJ.LIN(), que ajudam a prever valores com base em padrões existentes.
 
-Variância
+###Variância
 
-A variância mede a dispersão de um conjunto de dados em relação à média. No Google Sheets, pode ser calculada usando =VAR.P(A1:A10) para a população inteira ou =VAR.A(A1:A10) para uma amostra.
+- A variância mede a dispersão de um conjunto de dados em relação à média. No Google Sheets, pode ser calculada usando =VAR.P(A1:A10) para a população inteira ou =VAR.A(A1:A10) para uma amostra.
 
-Desvio Padrão
+###Desvio Padrão
 
-O desvio padrão mede o grau de dispersão dos valores em relação à média. No Google Sheets, pode ser calculado usando:
+- O desvio padrão mede o grau de dispersão dos valores em relação à média. No Google Sheets, pode ser calculado usando:
 
 =DESVPAD.P(A1:A10) para a população inteira.
 
 =DESVPAD.A(A1:A10) para uma amostra.
 
-Média Móvel
+### Média Móvel
 
-A média móvel é uma técnica estatística usada para suavizar variações em dados ao longo do tempo. Ela ajuda a identificar tendências e padrões eliminando ruídos e flutuações momentâneas.
+- A média móvel é uma técnica estatística usada para suavizar variações em dados ao longo do tempo. Ela ajuda a identificar tendências e padrões eliminando ruídos e flutuações momentâneas.
