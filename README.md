@@ -56,7 +56,7 @@
 
 - A interpolação é um método matemático usado para estimar valores dentro de um intervalo de dados conhecidos. No Google Sheets, pode ser realizada usando funções como =TENDÊNCIA() e =PROJ.LIN(), que ajudam a prever valores com base em padrões existentes.
 
-###Variância
+### Variância
 
 - A variância mede a dispersão de um conjunto de dados em relação à média. No Google Sheets, pode ser calculada usando =VAR.P(A1:A10) para a população inteira ou =VAR.A(A1:A10) para uma amostra.
 
