@@ -59,3 +59,15 @@ A interpolação é um método matemático usado para estimar valores dentro de 
 Variância
 
 A variância mede a dispersão de um conjunto de dados em relação à média. No Google Sheets, pode ser calculada usando =VAR.P(A1:A10) para a população inteira ou =VAR.A(A1:A10) para uma amostra.
+
+Desvio Padrão
+
+O desvio padrão mede o grau de dispersão dos valores em relação à média. No Google Sheets, pode ser calculado usando:
+
+=DESVPAD.P(A1:A10) para a população inteira.
+
+=DESVPAD.A(A1:A10) para uma amostra.
+
+Média Móvel
+
+A média móvel é uma técnica estatística usada para suavizar variações em dados ao longo do tempo. Ela ajuda a identificar tendências e padrões eliminando ruídos e flutuações momentâneas.
